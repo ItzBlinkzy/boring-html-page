@@ -1,0 +1,199 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE 
+/* MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE 
+/* MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE 
+/* MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE 
+/* MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE MY CODE 
+*/
+
+html, body {
+    height: 99%;
+    background-image: linear-gradient(-170deg, rgb(35 118 174) 0%, rgb(193 110 207) 100%);
+    font-family: sans-serif
+}
+
+.small-price-grid {
+    background-color: rgba(255,255,255,0.3);
+    height: 600px;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 200px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+.big-price-grid {   
+    background-color: rgba(255,255,255,0.3);
+    height: 700px;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 200px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.container {
+    margin: 60px;
+}   
+
+.small-price-grid h2, .big-price-grid h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px #000;
+    outline: #000;
+}
+
+
+.small-price-grid h3, .big-price-grid h3 {
+    margin: 10%;
+    box-sizing: border-box;
+    font-size: medium;
+    color: black;
+    margin-top: 10%;
+}
+
+.small-price-grid p, .big-price-grid p {
+    font-size: medium;
+    padding-top: 50%;
+    box-sizing: border-box;
+    color: #000
+}
+.small-price-grid ul, .big-price-grid ul {
+    padding-top: 20%;
+    box-sizing: border-box;
+
+}
+.small-price-grid ul li, .big-price-grid ul li {
+    list-style-type: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10%;
+    font-size: medium;
+}
+
+.price {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    font-size: larger;
+    line-height: 50px;
+    margin-top: 10%;
+}
+
+.purchase-button {
+    width: 250px;
+    height: 50px;
+    margin-top: 10%;
+    text-align: center;
+    line-height: 50px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: large;
+    font-weight: bold;
+}
